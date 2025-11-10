@@ -1,5 +1,5 @@
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 
 data = pd.read_csv('nilai_siswa.csv')
@@ -18,3 +18,14 @@ data.groupby('Mapel')['Nilai'].agg(['max','min'])
 
 rata = data.groupby('Mapel') ['Nilai'].mean()
 rata.plot(kind='bar')
+
+rata = data.groupby('Mapel')['Nilai'].mean()
+rata.plot(kind='bar')
+plt.title('Rata-Rata Nilai per Mapel')
+plt.xlabel('Mata Pelajaran')
+plt.ylabel('Nilai Rata-Rata')
+plt.show()
+
+sns.boxplot(x='Mapel', y='Nilai', data=data)
+plt.title('Sebaran Nilai per Mata Pelajaran')
+plt.show()
