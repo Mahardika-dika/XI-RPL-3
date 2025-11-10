@@ -70,6 +70,8 @@ sns.boxplot(x='Mapel', y='Nilai', data=data)
 plt.title('Sebaran Nilai per Mata Pelajaran')
 plt.show()
 
+ ```
+
 ---
 
 ## Hasil Analisis
