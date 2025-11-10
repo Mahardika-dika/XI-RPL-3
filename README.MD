@@ -4,8 +4,8 @@
 
 ---
 
-1. Mapel mana yang memiliki rata-rata nilai tertinggi?  
-2. Mapel mana yang memiliki nilai terendah?  
+1. Mapel mana yang memiliki rata-rata nilai tertinggi?
+2. Mapel mana yang memiliki nilai terendah?
 3. Bagaimana visualisasi membantu dalam memahami data?
 
 ---
@@ -14,8 +14,8 @@
 
 ---
 
-1. Apa hal baru yang kamu pelajari dari kegiatan analisis dan visualisasi data?  
-2. Kesulitan apa yang kamu alami dalam membuat grafik?  
+1. Apa hal baru yang kamu pelajari dari kegiatan analisis dan visualisasi data?
+2. Kesulitan apa yang kamu alami dalam membuat grafik?
 3. Menurut kamu, apakah AI membantu dalam analisis sebuah data?
 
 ---
@@ -70,7 +70,107 @@ sns.boxplot(x='Mapel', y='Nilai', data=data)
 plt.title('Sebaran Nilai per Mata Pelajaran')
 plt.show()
 
- ```
+```
+
+---
+
+## Hasil Output
+
+- Output Text
+
+```plaintext
+D:\Coding\SMK TELKOM\XI RPL 3\Python\praktikum 2>C:\Users\USER\AppData\Local\Programs\Python\Python314\python.exe "d:/Coding/SMK TELKOM/XI RPL 3/Python/praktikum 2/praktik-2.py"
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   NamaNama  22 non-null     object
+ 1   Mapel     22 non-null     object
+ 2   Nilai     22 non-null     int64
+dtypes: int64(1), object(2)
+memory usage: 660.0+ bytes
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   NamaNama  22 non-null     object
+ 1   Mapel     22 non-null     object
+ 2   Nilai     22 non-null     int64
+dtypes: int64(1), object(2)
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   NamaNama  22 non-null     object
+ 1   Mapel     22 non-null     object
+ 2   Nilai     22 non-null     int64
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   NamaNama  22 non-null     object
+ 1   Mapel     22 non-null     object
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   NamaNama  22 non-null     object
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   NamaNama  22 non-null     object
+ 1   Mapel     22 non-null     object
+ 2   Nilai     22 non-null     int64
+dtypes: int64(1), object(2)
+memory usage: 660.0+ bytes
+None
+  NamaNama             Mapel  Nilai
+0      Ade  Bahasa Indonesia     87
+1     Aira  Bahasa Indonesia     88
+2     Badi    Bahasa Inggris     78
+3     Cyla    Bahasa Inggris     90
+4   Khansa        Matematika     98
+           Nilai
+count  22.000000
+mean   86.318182
+std     6.066193
+min    75.000000
+25%    85.000000
+50%    86.500000
+75%    90.000000
+max    98.000000
+Rata-rata: 86.31818181818181
+Rata-rata: 86.5
+Rata-rata: 85
+
+  NamaNama       Mapel  Nilai
+4   Khansa  Matematika     98
+6      Dwi  Matematika     85
+
+```
+
+- Output Jendela Windows
+
+![Windows Result](./Image/Diagram%20Rata-Rata%20Nilai.png)
+![Windows Result](./Image/Diagram%20Sebaran%20per%20Mata%20Pelajaran.png)
 
 ---
 
